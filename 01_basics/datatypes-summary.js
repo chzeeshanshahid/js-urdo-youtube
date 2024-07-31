@@ -31,14 +31,39 @@ const myFunction = function(){
       console.log("Hello World"); // functions  
 } 
 
-console.log(typeof score);
-console.log(typeof scoreValue);
-console.log(typeof isLoggedIn);
-console.log(typeof outsideTemp);
-console.log(typeof userEmail);
-console.log(typeof id);
-console.log(typeof bigNumber);
+// console.log(typeof score);
+// console.log(typeof scoreValue);
+// console.log(typeof isLoggedIn);
+// console.log(typeof outsideTemp);
+// console.log(typeof userEmail);
+// console.log(typeof id);
+// console.log(typeof bigNumber);
 
-console.log(typeof heros);
-console.log(typeof myObj);
-console.log(typeof myFunction);
+// console.log(typeof heros);
+// console.log(typeof myObj);
+// console.log(typeof myFunction);
+
+
+// ****************************** Memory *******************************
+// Two types of memory
+      // Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "ZeeshanKaChannel"
+
+let anothername = myYoutubename
+anothername = "MeraYotubeChannel"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    number: "03708557531"
+}
+ 
+let userTwo = userOne
+
+userTwo.email = "Zeeshan@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);

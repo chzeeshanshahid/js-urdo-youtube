@@ -5,4 +5,16 @@ kese data ko excess kia jata hai
 PRIMITIVE
     or
 Non PRIMITIVE
+
+
+MEMORY:
+    Two types of memory 
+    1 stack 
+    2 heap
+
+Stack:
+    jab bhi Stack memory use hoti hai iska matlab hai ap ne jo bhi variable declare karwaya hai us ka aap ko copy milta hai
+
+Heap:
+    or jab bhi memory heap ke andar define hoti hai to koi object ya kuch bhi heap ke andar chala jata hai to wahan se aapko milta hai reference  original value ka   
    
