@@ -19,7 +19,7 @@ let state;
 // boolean => true/false
 // null => standalone value
 // undefined => value is not defined
-// symbol => unique
+// symbol =>  kisi bhi value ko unique banane ke liye use hota hai
 
 
 // object 

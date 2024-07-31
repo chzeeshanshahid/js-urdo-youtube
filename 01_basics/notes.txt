@@ -1,0 +1,8 @@
+kis tarah se data ko memory main store kia jata hai
+                        or
+kese data ko excess kia jata hai
+    us basis pe data ka 2 categorization hai 
+PRIMITIVE
+    or
+Non PRIMITIVE
+   
